@@ -26,7 +26,7 @@ function Projects() {
               imgPath={Myglamm}
               isBlog={false}
               title="MyGlamm.com Clone "
-              description="An online Cosmetics e-commerce website frontend build with using JavaScript, Bootstrap, HTML5, and Css3 and backend build with Express and MongoDb. frontend is deployed on netlify and backend on AWS."
+              description="MYGLAMM is an ecommerce shopping web application which provides international beauty products - skin care, makeup kit, cosmetics. We had to clone this website. This was a collaborative project built by a team of 4 executed in just 5 days. Tech stack used: HTML, JavaSript, Bootstrap, CSS, AWS and netlify"
               link1="https://github.com/nikeshkumarsingh/Myglamm_with_backend.git"
               link2="https://nikeshandgroup.netlify.app/index.html"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={youtube}
               isBlog={false}
               title="YouTube.com Clone"
-              description="it is platform where user can serach releted videos I make this website by fetching Google youtube API. I used JavaScript, HTML and CSS3 ."
+              description="It is platform where user can serach releted videos. I make this website by fetching Google youtube API and map to the html element and do some CSS  style grid to achive the UI and I used light and dark mode to it . TECH  STACK  i used : HTML,Google API, CSS and JavaScript .It was a great experience of handling data in frontend "
               link1="https://github.com/nikeshkumarsingh/youtube_clone.git"
               link2="https://youtubeclonebynikesh.netlify.app/"
             />

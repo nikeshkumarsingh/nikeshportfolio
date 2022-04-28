@@ -86,13 +86,9 @@ function NavBar(){
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+            <Nav.Link href="https://drive.google.com/file/d/1pQLbgTJiB3_dy345ZOSq42MY0ZSgr0Ah/view?usp=sharing" target="_blank">
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
+                </Nav.Link>
             </Nav.Item>
 
 
