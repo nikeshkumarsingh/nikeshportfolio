@@ -95,7 +95,7 @@ function Home2() {
                 </a>
               </li>
               <Popup trigger={<li className="social-icons"><a rel="noreferrer" className="icon-colour  home-social-icons">< AiFillPhone/></a></li>}><div>+91 6205021314</div></Popup>
-              <Popup trigger={<li className="social-icons"><a rel="noreferrer" className="icon-colour  home-social-icons"><AiOutlineMail/></a></li>}><div>nikeshmasai1947@gmail.com</div></Popup>
+              <li  className="social-icons"><a rel="noreferrer" href="mailto:nikeshmasai@gmail.com" className="icon-colour  home-social-icons"><AiOutlineMail/></a></li>
             </ul>
           </Col>
         </Row>
