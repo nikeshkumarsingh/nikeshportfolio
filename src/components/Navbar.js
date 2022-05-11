@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
@@ -55,8 +55,8 @@ function NavBar(){
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <Nav.Link as={Link} activeClass="active"  to="bareme" spy={true} smooth={true} duration={800} onClick={() => updateExpanded(false)}>
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
              
@@ -65,7 +65,7 @@ function NavBar(){
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/skills"
+                activeClass="active" to="kyasikha" spy={true} smooth={true} duration={800}
                 onClick={() => updateExpanded(false)}
               >
                 <AiFillAppstore style={{ marginBottom: "2px" }} /> Skills
@@ -75,7 +75,7 @@ function NavBar(){
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                activeClass="active" to="kyakiya" spy={true} smooth={true} duration={800}
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen

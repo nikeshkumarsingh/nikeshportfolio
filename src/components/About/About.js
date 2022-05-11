@@ -18,7 +18,7 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid id="kyasikha" className="about-section">
       <Particle />
       <Container>
         {/* <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -56,7 +56,7 @@ function About() {
 
         <Github />
       </Container>
-      <Row>
+      {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -97,7 +97,7 @@ function About() {
               <li  className="social-icons"><a rel="noreferrer" href="mailto:nikeshmasai@gmail.com" className="icon-colour  home-social-icons"><AiOutlineMail/></a></li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
     </Container>
   );
 }

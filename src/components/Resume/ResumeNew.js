@@ -32,7 +32,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative", marginBottom:"50px"}}>
           <Button
             variant="primary"
             href={resumeLink}
@@ -44,13 +44,13 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
+        {/* <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 600 ? 1.5 : 0.6} />
           </Document>
-        </Row>
+        </Row> */}
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={resumeLink}
@@ -60,7 +60,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
-        </Row>
+        </Row> */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
