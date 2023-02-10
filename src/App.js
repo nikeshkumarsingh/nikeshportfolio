@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Certificate from "./components/Certification/Certificate";
 import {
   BrowserRouter as Router,
   Route,
@@ -44,6 +45,7 @@ function App() {
         <Home id="bareme" />
         <About id="kyasikha" />
         <Projects id="kyakiya" />
+        <Certificate id="kyajeeta"/>
         <Resume />
         <Footer />
       </div>

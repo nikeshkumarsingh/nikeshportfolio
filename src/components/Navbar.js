@@ -12,7 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiFillAppstore,
-  
+  AiOutlineSafetyCertificate
 } from "react-icons/ai";
 import Header from "./Ab";
 import { CgFileDocument } from "react-icons/cg";
@@ -84,7 +84,18 @@ function NavBar(){
                 Projects
               </Nav.Link>
             </Nav.Item>
-
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                activeClass="active" to="kyajeeta" spy={true} smooth={true} duration={800}
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineSafetyCertificate
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+               Certification
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item>
             <Nav.Link href="https://drive.google.com/file/d/1pQLbgTJiB3_dy345ZOSq42MY0ZSgr0Ah/view?usp=sharing" target="_blank">
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
