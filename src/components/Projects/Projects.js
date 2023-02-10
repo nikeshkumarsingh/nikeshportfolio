@@ -9,6 +9,7 @@ import Myglamm from "../../Assets/Projects/Chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import youtube from "../../Assets/Projects/youtube.png";
+import Unsplash from "../../Assets/Projects/unsplash.png";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -31,6 +32,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Unsplash}
+              isBlog={false}
+              title="Unsplash.com Clone"
+              description="It is platform where user can serach releted pictures. I make this website by fetching Unsplash API and map to the html element and do some CSS  style grid and use Chakra-ui to achive the UIt . TECH  STACK  i used : HTML,Google API, CSS ,React.js, Redux,redux-thunk,axios .It was a great experience of handling data in frontend and back end using react. "
+              link1="https://github.com/nikeshkumarsingh/unsplashclone"
+              link2="https://unsplash-clone-red.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Myglamm}
